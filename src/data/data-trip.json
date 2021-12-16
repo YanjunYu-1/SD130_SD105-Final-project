@@ -1,0 +1,1334 @@
+{
+  "plans": [
+    {
+      "number": 1,
+      "times": {
+        "start": "2021-12-15T12:47:00",
+        "end": "2021-12-15T13:24:00",
+        "durations": {
+          "total": 37,
+          "walking": 16,
+          "waiting": 0,
+          "riding": 20
+        }
+      },
+      "segments": [
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T12:47:00",
+            "end": "2021-12-15T12:50:00",
+            "durations": {
+              "total": 3,
+              "walking": 3
+            }
+          },
+          "from": {
+            "origin": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 629401,
+                    "y": 5527188
+                  },
+                  "geographic": {
+                    "latitude": "49.88309",
+                    "longitude": "-97.19873"
+                  }
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8831",
+              "lng": "-97.19873"
+            },
+            "minimum": {
+              "lat": "49.88147",
+              "lng": "-97.19918"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10826,
+              "name": "Southbound Polo Park at Polo Park",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 629373,
+                  "y": 5527007
+                },
+                "geographic": {
+                  "latitude": "49.88147",
+                  "longitude": "-97.19918"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T12:50:00",
+            "end": "2021-12-15T13:10:00",
+            "durations": {
+              "total": 20,
+              "riding": 20
+            }
+          },
+          "route": {
+            "key": 20,
+            "number": 20,
+            "name": "Route 20 Academy-Watt",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 20,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "20-0-W",
+            "name": "Watt-Academy to Watt & Leighton"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.88578",
+              "lng": "-97.15049"
+            },
+            "minimum": {
+              "lat": "49.87336",
+              "lng": "-97.20711"
+            }
+          },
+          "bus": {
+            "key": 818,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:10:00",
+            "end": "2021-12-15T13:24:00",
+            "durations": {
+              "total": 13,
+              "walking": 13
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10584,
+              "name": "Eastbound Broadway at Osborne",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632860,
+                  "y": 5527528
+                },
+                "geographic": {
+                  "latitude": "49.88539",
+                  "longitude": "-97.15049"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.88547",
+              "lng": "-97.14638"
+            },
+            "minimum": {
+              "lat": "49.87894",
+              "lng": "-97.15049"
+            }
+          },
+          "to": {
+            "destination": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 633117,
+                    "y": 5526828
+                  },
+                  "geographic": {
+                    "latitude": "49.87904",
+                    "longitude": "-97.14715"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "times": {
+        "start": "2021-12-15T12:58:00",
+        "end": "2021-12-15T13:24:00",
+        "durations": {
+          "total": 26,
+          "walking": 7,
+          "waiting": 2,
+          "riding": 17
+        }
+      },
+      "segments": [
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T12:58:00",
+            "end": "2021-12-15T13:03:00",
+            "durations": {
+              "total": 5,
+              "walking": 5
+            }
+          },
+          "from": {
+            "origin": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 629401,
+                    "y": 5527188
+                  },
+                  "geographic": {
+                    "latitude": "49.88309",
+                    "longitude": "-97.19873"
+                  }
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8831",
+              "lng": "-97.19873"
+            },
+            "minimum": {
+              "lat": "49.8804",
+              "lng": "-97.19964"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10562,
+              "name": "Eastbound Portage at Tylehurst (Polo Park)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 629348,
+                  "y": 5526888
+                },
+                "geographic": {
+                  "latitude": "49.8804",
+                  "longitude": "-97.19957"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:03:00",
+            "end": "2021-12-15T13:13:00",
+            "durations": {
+              "total": 10,
+              "riding": 10
+            }
+          },
+          "route": {
+            "key": 21,
+            "number": 21,
+            "name": "Route 21 Portage Express",
+            "customer-type": "regular",
+            "coverage": "express",
+            "badge-label": 21,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "express"
+                ]
+              },
+              "background-color": "#eed700",
+              "border-color": "#cab700",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "21-1-D",
+            "name": "Portage Express to City Hall"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89133",
+              "lng": "-97.1498"
+            },
+            "minimum": {
+              "lat": "49.88058",
+              "lng": "-97.19963"
+            }
+          },
+          "bus": {
+            "key": 758,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "transfer",
+          "times": {
+            "start": "2021-12-15T13:13:00",
+            "end": "2021-12-15T13:16:00",
+            "durations": {
+              "total": 3,
+              "walking": 1,
+              "waiting": 2
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10580,
+              "name": "Eastbound Portage at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632901,
+                  "y": 5528177
+                },
+                "geographic": {
+                  "latitude": "49.89121",
+                  "longitude": "-97.1497"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8914",
+              "lng": "-97.14898"
+            },
+            "minimum": {
+              "lat": "49.89062",
+              "lng": "-97.1498"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10619,
+              "name": "Westbound Graham at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632952,
+                  "y": 5528122
+                },
+                "geographic": {
+                  "latitude": "49.89071",
+                  "longitude": "-97.149"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:16:00",
+            "end": "2021-12-15T13:23:00",
+            "durations": {
+              "total": 7,
+              "riding": 7
+            }
+          },
+          "route": {
+            "key": 16,
+            "number": 16,
+            "name": "Route 16 Selkirk-Osborne",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 16,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "16-1-L",
+            "name": "Selkirk-Osborne to Island Lakes via Southdale Centre"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89067",
+              "lng": "-97.14642"
+            },
+            "minimum": {
+              "lat": "49.87922",
+              "lng": "-97.14992"
+            }
+          },
+          "bus": {
+            "key": 135,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:23:00",
+            "end": "2021-12-15T13:24:00",
+            "durations": {
+              "total": 1,
+              "walking": 1
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10172,
+              "name": "Southbound Osborne at River",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 633161,
+                  "y": 5526845
+                },
+                "geographic": {
+                  "latitude": "49.87918",
+                  "longitude": "-97.14654"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.87922",
+              "lng": "-97.14638"
+            },
+            "minimum": {
+              "lat": "49.87894",
+              "lng": "-97.14715"
+            }
+          },
+          "to": {
+            "destination": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 633117,
+                    "y": 5526828
+                  },
+                  "geographic": {
+                    "latitude": "49.87904",
+                    "longitude": "-97.14715"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "times": {
+        "start": "2021-12-15T12:58:00",
+        "end": "2021-12-15T13:25:00",
+        "durations": {
+          "total": 28,
+          "walking": 7,
+          "waiting": 4,
+          "riding": 16
+        }
+      },
+      "segments": [
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T12:58:00",
+            "end": "2021-12-15T13:03:00",
+            "durations": {
+              "total": 5,
+              "walking": 5
+            }
+          },
+          "from": {
+            "origin": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 629401,
+                    "y": 5527188
+                  },
+                  "geographic": {
+                    "latitude": "49.88309",
+                    "longitude": "-97.19873"
+                  }
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8831",
+              "lng": "-97.19873"
+            },
+            "minimum": {
+              "lat": "49.8804",
+              "lng": "-97.19964"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10562,
+              "name": "Eastbound Portage at Tylehurst (Polo Park)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 629348,
+                  "y": 5526888
+                },
+                "geographic": {
+                  "latitude": "49.8804",
+                  "longitude": "-97.19957"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:03:00",
+            "end": "2021-12-15T13:13:00",
+            "durations": {
+              "total": 10,
+              "riding": 10
+            }
+          },
+          "route": {
+            "key": 21,
+            "number": 21,
+            "name": "Route 21 Portage Express",
+            "customer-type": "regular",
+            "coverage": "express",
+            "badge-label": 21,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "express"
+                ]
+              },
+              "background-color": "#eed700",
+              "border-color": "#cab700",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "21-1-D",
+            "name": "Portage Express to City Hall"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89133",
+              "lng": "-97.1498"
+            },
+            "minimum": {
+              "lat": "49.88058",
+              "lng": "-97.19963"
+            }
+          },
+          "bus": {
+            "key": 758,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "transfer",
+          "times": {
+            "start": "2021-12-15T13:13:00",
+            "end": "2021-12-15T13:18:00",
+            "durations": {
+              "total": 5,
+              "walking": 1,
+              "waiting": 4
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10580,
+              "name": "Eastbound Portage at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632901,
+                  "y": 5528177
+                },
+                "geographic": {
+                  "latitude": "49.89121",
+                  "longitude": "-97.1497"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8914",
+              "lng": "-97.14898"
+            },
+            "minimum": {
+              "lat": "49.89062",
+              "lng": "-97.1498"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10619,
+              "name": "Westbound Graham at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632952,
+                  "y": 5528122
+                },
+                "geographic": {
+                  "latitude": "49.89071",
+                  "longitude": "-97.149"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:18:00",
+            "end": "2021-12-15T13:24:00",
+            "durations": {
+              "total": 6,
+              "riding": 6
+            }
+          },
+          "route": {
+            "key": 18,
+            "number": 18,
+            "name": "Route 18 North Main-Corydon",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 18,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "18-1-E",
+            "name": "North Main-Corydon to Tuxedo"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89067",
+              "lng": "-97.14642"
+            },
+            "minimum": {
+              "lat": "49.87922",
+              "lng": "-97.14992"
+            }
+          },
+          "bus": {
+            "key": 614,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:24:00",
+            "end": "2021-12-15T13:25:00",
+            "durations": {
+              "total": 1,
+              "walking": 1
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10172,
+              "name": "Southbound Osborne at River",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 633161,
+                  "y": 5526845
+                },
+                "geographic": {
+                  "latitude": "49.87918",
+                  "longitude": "-97.14654"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.87922",
+              "lng": "-97.14638"
+            },
+            "minimum": {
+              "lat": "49.87894",
+              "lng": "-97.14715"
+            }
+          },
+          "to": {
+            "destination": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 633117,
+                    "y": 5526828
+                  },
+                  "geographic": {
+                    "latitude": "49.87904",
+                    "longitude": "-97.14715"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "times": {
+        "start": "2021-12-15T13:00:00",
+        "end": "2021-12-15T13:32:00",
+        "durations": {
+          "total": 32,
+          "walking": 5,
+          "waiting": 5,
+          "riding": 22
+        }
+      },
+      "segments": [
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:00:00",
+            "end": "2021-12-15T13:03:00",
+            "durations": {
+              "total": 3,
+              "walking": 3
+            }
+          },
+          "from": {
+            "origin": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 629401,
+                    "y": 5527188
+                  },
+                  "geographic": {
+                    "latitude": "49.88309",
+                    "longitude": "-97.19873"
+                  }
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8831",
+              "lng": "-97.19873"
+            },
+            "minimum": {
+              "lat": "49.88136",
+              "lng": "-97.19931"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10822,
+              "name": "Northbound Polo Park Terminal at Polo Park (78)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 629370,
+                  "y": 5526996
+                },
+                "geographic": {
+                  "latitude": "49.88137",
+                  "longitude": "-97.19922"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:03:00",
+            "end": "2021-12-15T13:08:00",
+            "durations": {
+              "total": 5,
+              "riding": 5
+            }
+          },
+          "route": {
+            "key": 78,
+            "number": 78,
+            "name": "Route 78 Waverley",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 78,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "78-0-U",
+            "name": "Waverley to University of Manitoba"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.88187",
+              "lng": "-97.19904"
+            },
+            "minimum": {
+              "lat": "49.86797",
+              "lng": "-97.20711"
+            }
+          },
+          "bus": {
+            "key": 184,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "transfer",
+          "times": {
+            "start": "2021-12-15T13:08:00",
+            "end": "2021-12-15T13:13:00",
+            "durations": {
+              "total": 5,
+              "walking": 0,
+              "waiting": 5
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 60439,
+              "name": "Southbound Kenaston at Tuxedo South",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 628936,
+                  "y": 5525495
+                },
+                "geographic": {
+                  "latitude": "49.86797",
+                  "longitude": "-97.20576"
+                }
+              }
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 60439,
+              "name": "Southbound Kenaston at Tuxedo South",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 628936,
+                  "y": 5525495
+                },
+                "geographic": {
+                  "latitude": "49.86797",
+                  "longitude": "-97.20576"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:13:00",
+            "end": "2021-12-15T13:30:00",
+            "durations": {
+              "total": 17,
+              "riding": 17
+            }
+          },
+          "route": {
+            "key": 18,
+            "number": 18,
+            "name": "Route 18 North Main-Corydon",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 18,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "18-0-J",
+            "name": "North Main-Corydon to Garden City Centre via Jefferson"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.87944",
+              "lng": "-97.14202"
+            },
+            "minimum": {
+              "lat": "49.86301",
+              "lng": "-97.206"
+            }
+          },
+          "bus": {
+            "key": 850,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:30:00",
+            "end": "2021-12-15T13:32:00",
+            "durations": {
+              "total": 2,
+              "walking": 2
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10171,
+              "name": "Northbound Osborne at River",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 633163,
+                  "y": 5526878
+                },
+                "geographic": {
+                  "latitude": "49.87948",
+                  "longitude": "-97.1465"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.87948",
+              "lng": "-97.14638"
+            },
+            "minimum": {
+              "lat": "49.87894",
+              "lng": "-97.14715"
+            }
+          },
+          "to": {
+            "destination": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 633117,
+                    "y": 5526828
+                  },
+                  "geographic": {
+                    "latitude": "49.87904",
+                    "longitude": "-97.14715"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "times": {
+        "start": "2021-12-15T13:19:00",
+        "end": "2021-12-15T13:49:00",
+        "durations": {
+          "total": 30,
+          "walking": 4,
+          "waiting": 0,
+          "riding": 22
+        }
+      },
+      "segments": [
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:19:00",
+            "end": "2021-12-15T13:20:00",
+            "durations": {
+              "total": 2,
+              "walking": 2
+            }
+          },
+          "from": {
+            "origin": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 629401,
+                    "y": 5527188
+                  },
+                  "geographic": {
+                    "latitude": "49.88309",
+                    "longitude": "-97.19873"
+                  }
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.88318",
+              "lng": "-97.19873"
+            },
+            "minimum": {
+              "lat": "49.88305",
+              "lng": "-97.19989"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10380,
+              "name": "Westbound Polo Park West Access at Polo Park",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 629325,
+                  "y": 5527193
+                },
+                "geographic": {
+                  "latitude": "49.88315",
+                  "longitude": "-97.19978"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:20:00",
+            "end": "2021-12-15T13:21:00",
+            "durations": {
+              "total": 1,
+              "riding": 1
+            }
+          },
+          "route": {
+            "key": 11,
+            "number": 11,
+            "name": "Route 11 Portage-Kildonan",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 11,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "11-0-P",
+            "name": "Portage-Kildonan to Polo Park"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.88488",
+              "lng": "-97.19966"
+            },
+            "minimum": {
+              "lat": "49.88318",
+              "lng": "-97.19984"
+            }
+          },
+          "bus": {
+            "key": 829,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:25:00",
+            "end": "2021-12-15T13:40:00",
+            "durations": {
+              "total": 15,
+              "riding": 15
+            }
+          },
+          "route": {
+            "key": 11,
+            "number": 11,
+            "name": "Route 11 Portage-Kildonan",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 11,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "11-1-G",
+            "name": "Portage-Kildonan to Glenway via"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89133",
+              "lng": "-97.1498"
+            },
+            "minimum": {
+              "lat": "49.8802",
+              "lng": "-97.20175"
+            }
+          },
+          "bus": {
+            "key": 829,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "transfer",
+          "times": {
+            "start": "2021-12-15T13:40:00",
+            "end": "2021-12-15T13:41:00",
+            "durations": {
+              "total": 1,
+              "walking": 1,
+              "waiting": 0
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10580,
+              "name": "Eastbound Portage at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632901,
+                  "y": 5528177
+                },
+                "geographic": {
+                  "latitude": "49.89121",
+                  "longitude": "-97.1497"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.8914",
+              "lng": "-97.14898"
+            },
+            "minimum": {
+              "lat": "49.89062",
+              "lng": "-97.1498"
+            }
+          },
+          "to": {
+            "stop": {
+              "key": 10619,
+              "name": "Westbound Graham at Vaughan (The Bay)",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 632952,
+                  "y": 5528122
+                },
+                "geographic": {
+                  "latitude": "49.89071",
+                  "longitude": "-97.149"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "ride",
+          "times": {
+            "start": "2021-12-15T13:41:00",
+            "end": "2021-12-15T13:47:00",
+            "durations": {
+              "total": 6,
+              "riding": 6
+            }
+          },
+          "route": {
+            "key": 60,
+            "number": 60,
+            "name": "Route 60 Pembina",
+            "customer-type": "regular",
+            "coverage": "regular",
+            "badge-label": 60,
+            "badge-style": {
+              "class-names": {
+                "class-name": [
+                  "badge-label",
+                  "regular"
+                ]
+              },
+              "background-color": "#ffffff",
+              "border-color": "#d9d9d9",
+              "color": "#000000"
+            }
+          },
+          "variant": {
+            "key": "60-0-U",
+            "name": "Pembina to University of Manitoba"
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.89067",
+              "lng": "-97.14642"
+            },
+            "minimum": {
+              "lat": "49.87922",
+              "lng": "-97.14992"
+            }
+          },
+          "bus": {
+            "key": 346,
+            "bike-rack": "false",
+            "wifi": "false"
+          }
+        },
+        {
+          "type": "walk",
+          "times": {
+            "start": "2021-12-15T13:47:00",
+            "end": "2021-12-15T13:49:00",
+            "durations": {
+              "total": 1,
+              "walking": 1
+            }
+          },
+          "from": {
+            "stop": {
+              "key": 10172,
+              "name": "Southbound Osborne at River",
+              "centre": {
+                "utm": {
+                  "zone": "14U",
+                  "x": 633161,
+                  "y": 5526845
+                },
+                "geographic": {
+                  "latitude": "49.87918",
+                  "longitude": "-97.14654"
+                }
+              }
+            }
+          },
+          "bounds": {
+            "maximum": {
+              "lat": "49.87922",
+              "lng": "-97.14638"
+            },
+            "minimum": {
+              "lat": "49.87894",
+              "lng": "-97.14715"
+            }
+          },
+          "to": {
+            "destination": {
+              "point": {
+                "centre": {
+                  "utm": {
+                    "zone": "14U",
+                    "x": 633117,
+                    "y": 5526828
+                  },
+                  "geographic": {
+                    "latitude": "49.87904",
+                    "longitude": "-97.14715"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "query-time": "2021-12-15T12:38:14"
+}

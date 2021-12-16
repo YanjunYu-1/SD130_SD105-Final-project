@@ -1,0 +1,435 @@
+{
+  "type": "FeatureCollection",
+  "query": ["coffee"],
+  "features": [
+    {
+      "id": "poi.25769894878",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4e5a6f8ad4c0ba8c11ab095d",
+        "landmark": true,
+        "address": "468 Main St.",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Parlour Coffee",
+      "place_name": "Parlour Coffee, 468 Main St., Winnipeg, Manitoba R3B 1B6, Canada",
+      "center": [-97.139042, 49.897697],
+      "geometry": {"coordinates": [-97.139042, 49.897697], "type": "Point"},
+      "context": [
+        {
+          "id": "neighborhood.7501796563230720",
+          "wikidata": "Q5419566",
+          "text": "Exchange District"
+        },
+        {"id": "postcode.18703350664280160", "text": "R3B 1B6"},
+        {
+          "id": "locality.11713314729836170",
+          "wikidata": "Q508130",
+          "text": "Downtown Winnipeg"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.85899409095",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b50794cf964a520772427e3",
+        "landmark": true,
+        "address": "481 River Ave, Unit #1 Osborne Village",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Starbucks",
+      "place_name": "Starbucks, 481 River Ave, Unit #1 Osborne Village, Winnipeg, Manitoba R3L 0C9, Canada",
+      "center": [-97.147149, 49.879047],
+      "geometry": {"coordinates": [-97.147149, 49.879047], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.10413154194328340", "text": "Roslyn"},
+        {"id": "postcode.16378081257124750", "text": "R3L 0C9"},
+        {
+          "id": "locality.2979816133008640",
+          "wikidata": "Q7337494",
+          "text": "River Heights"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.1142461320207",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b45127ff964a5207b0326e3",
+        "landmark": true,
+        "address": "161 Osborne St",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Baked Expectations",
+      "place_name": "Baked Expectations, 161 Osborne St, Winnipeg, Manitoba R3L 1Y7, Canada",
+      "center": [-97.144214, 49.877221],
+      "geometry": {"coordinates": [-97.144214, 49.877221], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.5836756036700730", "text": "McMillan"},
+        {"id": "postcode.9007352286642200", "text": "R3L 1Y7"},
+        {
+          "id": "locality.2979816133008640",
+          "wikidata": "Q7337494",
+          "text": "River Heights"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.335007544124",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "510d5728e4b04c8ca512c017",
+        "landmark": true,
+        "address": "62 Sherbrook Street",
+        "category": "coffee, cafe"
+      },
+      "text": "Thom Bargen",
+      "place_name": "Thom Bargen, 62 Sherbrook Street, Winnipeg, Manitoba R3C 2B3, Canada",
+      "center": [-97.1597, 49.880807],
+      "geometry": {"coordinates": [-97.1597, 49.880807], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.11256067661522260", "text": "West Broadway"},
+        {"id": "postcode.9751322956060810", "text": "R3C 2B3"},
+        {
+          "id": "locality.11713314729836170",
+          "wikidata": "Q508130",
+          "text": "Downtown Winnipeg"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.386547121244",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b8db312f964a5205d0933e3",
+        "landmark": true,
+        "address": "1485 Portage Ave, 153 Polo Park Shopping Centre",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Starbucks",
+      "place_name": "Starbucks, 1485 Portage Ave, 153 Polo Park Shopping Centre, Winnipeg, Manitoba R3G 0W4, Canada",
+      "center": [-97.198814, 49.883938],
+      "geometry": {"coordinates": [-97.198814, 49.883938], "type": "Point"},
+      "context": [
+        {
+          "id": "neighborhood.9925873905412810",
+          "wikidata": "Q2102577",
+          "text": "Polo Park"
+        },
+        {"id": "postcode.7582285649965670", "text": "R3G 0W4"},
+        {
+          "id": "locality.11713314729836170",
+          "wikidata": "Q508130",
+          "text": "Downtown Winnipeg"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.1262720395969",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b55c5a9f964a52048ef27e3",
+        "landmark": true,
+        "address": "1430 Ellice St",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Starbucks",
+      "place_name": "Starbucks, 1430 Ellice St, Winnipeg, Manitoba R3G 0G4, Canada",
+      "center": [-97.198461, 49.893947],
+      "geometry": {"coordinates": [-97.198461, 49.893947], "type": "Point"},
+      "context": [
+        {
+          "id": "neighborhood.9925873905412810",
+          "wikidata": "Q2102577",
+          "text": "Polo Park"
+        },
+        {"id": "postcode.8828667533220460", "text": "R3G 0G4"},
+        {
+          "id": "locality.11713314729836170",
+          "wikidata": "Q508130",
+          "text": "Downtown Winnipeg"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.627065262802",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b81d97df964a52012c130e3",
+        "landmark": true,
+        "address": "1040 Beaverhill Blvd",
+        "category": "coffee, cafe"
+      },
+      "text": "Tim Hortons",
+      "place_name": "Tim Hortons, 1040 Beaverhill Blvd, Winnipeg, Manitoba R2J 4B1, Canada",
+      "center": [-97.066083, 49.855301],
+      "geometry": {"coordinates": [-97.066083, 49.855301], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.13402096394330440", "text": "Southdale"},
+        {"id": "postcode.13082801738499730", "text": "R2J 4B1"},
+        {"id": "locality.14273330886651520", "text": "St. Boniface"},
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.154618918222",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b644304f964a52007a72ae3",
+        "landmark": true,
+        "address": "1581 Regent Ave W, Unit 1",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Starbucks",
+      "place_name": "Starbucks, 1581 Regent Ave W, Unit 1, Winnipeg, Manitoba R2C 3B3, Canada",
+      "center": [-97.068066, 49.899612],
+      "geometry": {"coordinates": [-97.068066, 49.899612], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.9595695950339790", "text": "Regent"},
+        {"id": "postcode.11815082951907830", "text": "R2C 3B3"},
+        {"id": "locality.16512210236878920", "text": "Transcona"},
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.369367216983",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b7f54a5f964a520f82730e3",
+        "landmark": true,
+        "address": "5-2001 Henderson Hwy.",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Mountain Bean Coffee",
+      "place_name": "Mountain Bean Coffee, 5-2001 Henderson Hwy., Winnipeg, Manitoba R2G 1P7, Canada",
+      "center": [-97.070793, 49.957244],
+      "geometry": {"coordinates": [-97.070793, 49.957244], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.12784400483983340", "text": "River East"},
+        {"id": "postcode.7842165549198670", "text": "R2G 1P7"},
+        {"id": "locality.8101410002983340", "text": "River East"},
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "poi.747324326105",
+      "type": "Feature",
+      "place_type": ["poi"],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4b74cadaf964a52052f22de3",
+        "landmark": true,
+        "address": "726 St Anne's Rd, 104, Bldg J Southglen Shopping Centre",
+        "category": "cafe, coffee, tea, tea house",
+        "maki": "cafe"
+      },
+      "text": "Starbucks",
+      "place_name": "Starbucks, 726 St Anne's Rd, 104, Bldg J Southglen Shopping Centre, Winnipeg, Manitoba R2N 0A2, Canada",
+      "center": [-97.083583, 49.823425],
+      "geometry": {"coordinates": [-97.083583, 49.823425], "type": "Point"},
+      "context": [
+        {"id": "neighborhood.6688729482521950", "text": "Dakota Crossing"},
+        {"id": "postcode.7860661917840840", "text": "R2N 0A2"},
+        {
+          "id": "locality.16465915985819690",
+          "wikidata": "Q3463513",
+          "text": "St. Vital"
+        },
+        {
+          "id": "place.13573637014461060",
+          "wikidata": "Q2135",
+          "text": "Winnipeg"
+        },
+        {
+          "id": "region.5311680385230670",
+          "wikidata": "Q1948",
+          "short_code": "CA-MB",
+          "text": "Manitoba"
+        },
+        {
+          "id": "country.10278600750587150",
+          "wikidata": "Q16",
+          "short_code": "ca",
+          "text": "Canada"
+        }
+      ]
+    }
+  ],
+  "attribution": "NOTICE: © 2021 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}
