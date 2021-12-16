@@ -123,6 +123,17 @@ function locationsQuery(_place, _element) {
     });
 }
 
+function selectLocation(_event) {
+  liCtrl = _event.target.closest('li');
+  if (liCtrl !== null) {
+    allLi = liCtrl.parentElement.querySelectorAll('li');
+  for (const liNode of allLi) {
+    liNode.classList.remove('selected');
+  }
+  liCtrl.classList.toggle('selected');
+  }
+}
+
 function formEvent(_element, _event)
 {
   _event.preventDefault();
@@ -132,6 +143,10 @@ function formEvent(_element, _event)
     locationsQuery(plInput.value, _element);
   }
 }
+
+startingLocationsElement.onclick = selectLocation;
+
+destinationsElement.onclick = selectLocation;
 
 originForm.onsubmit = function (_event)
 {
