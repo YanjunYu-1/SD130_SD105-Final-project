@@ -122,3 +122,18 @@ function locationsQuery(_place, _element) {
 	  }
     });
 }
+
+function formEvent(_element, _event)
+{
+  _event.preventDefault();
+  const plInput = _event.target.querySelector('input');
+  if(plInput.value !== '')
+  {
+    locationsQuery(plInput.value, _element);
+  }
+}
+
+originForm.onsubmit = function (_event)
+{
+    formEvent(startingLocationsElement, _event);
+};
