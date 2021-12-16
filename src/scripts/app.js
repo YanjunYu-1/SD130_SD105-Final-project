@@ -1,3 +1,5 @@
-import {apiKey} from './modules/rul.js'
-import {bbox} from './modules/rul.js'
-import {wtApiKey} from './modules/rul.js'
+import {apiKey, bbox, wtApiKey} from './modules/rul.js'
+import {originForm,destinationForm,startingLocationsElement,destinationsElement} from './modules/node.js'
+
+startingLocationsElement.innerHTML='';
+destinationsElement.innerHTML='';
