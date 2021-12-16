@@ -93,3 +93,32 @@ function getTrips(srcLat, srcLong, dstLat, dstLong) {
 	  }
     });
 }
+
+function locationsQuery(_place, _element) {
+  fetch('https://api.mapbox.com/geocoding/v5/mapbox.places/' + _place + '.json?access_token=' + apiKey + '&limit=10&bbox=' + bbox)
+    .then((res) => res.json())
+    .then((data) => {
+      let locHTML = '';
+	  if(data.features.length>0)
+	  {
+		  data.features.forEach(
+			(feature) => {
+			const plname = feature.place_name.split(',');
+			locHTML +=
+			  '<li data-long="' +
+			  feature.geometry.coordinates[0] +
+			  '" data-lat="' +
+			  feature.geometry.coordinates[1] +
+			  '">\x0a          <div class="name">' +
+			  plname[0].capitalize() +
+			  '</div>\x0a          <div>' +
+			  plname[1] +
+			  '</div>\x0a        </li>';
+		  });
+		  _element.innerHTML = locHTML;
+	  }
+	  else{
+		  document.querySelector('#mywarn').innerText="not Found "+_place;
+	  }
+    });
+}
