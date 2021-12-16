@@ -137,3 +137,8 @@ originForm.onsubmit = function (_event)
 {
     formEvent(startingLocationsElement, _event);
 };
+
+destinationForm.onsubmit = function (_event)
+{
+    formEvent(destinationsElement, _event);
+};
