@@ -157,3 +157,23 @@ destinationForm.onsubmit = function (_event)
 {
     formEvent(destinationsElement, _event);
 };
+
+planTripButton.onclick = function (_event)
+{
+	const srcPlace = document.querySelector('.origins .selected');
+	const dstPlace = document.querySelector('.destinations .selected');
+	if(srcPlace !== null && dstPlace !== null)
+	{
+      getTrips(srcPlace.dataset.lat, srcPlace.dataset.long, dstPlace.dataset.lat, dstPlace.dataset.long);
+	}
+	else{
+		if(srcPlace==null && dstPlace==null){
+			document.querySelector('#mywarn').innerText="not select departure and destination place!";
+		}
+		else if(srcPlace==null){
+			document.querySelector('#mywarn').innerText="not select departure place!";
+		}else{
+			document.querySelector('#mywarn').innerText="not select destination place!";
+		}
+	}
+};
