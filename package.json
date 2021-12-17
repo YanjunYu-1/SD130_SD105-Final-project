@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GloryOfRome/SD130_SD105-Final-project/issues"
   },
-  "homepage": "https://github.com/GloryOfRome/SD130_SD105-Final-project#readme"
+  "homepage": "https://github.com/GloryOfRome/SD130_SD105-Final-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
