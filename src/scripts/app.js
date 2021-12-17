@@ -47,9 +47,9 @@ function getTrips(srcLat, srcLong, dstLat, dstLong) {
 					  segment.to.stop.name)
 				  : (tripHTML +=
 					  '<li><i class="fas fa-walking"></i>' + 
-					  segment.type.capitalize() +
+					  segment.type.capitalize() + 
 					  ' for ' +
-					  segment.times.durations.total +
+					  segment.times.durations.total + 
 					  ' minutes to your destination.');
 			  else {
 				if (segment.type === 'ride')
@@ -63,7 +63,7 @@ function getTrips(srcLat, srcLong, dstLat, dstLong) {
 						segment.times.durations.total + 
 						' minutes.')
 					: (tripHTML +=
-						'<li><i class="fas fa-bus"></i>' +
+						'<li><i class="fas fa-bus"></i>' + 
 						segment.type.capitalize() + 
 						' the ' +
 						segment.route.name + 
@@ -106,13 +106,13 @@ function locationsQuery(_place, _element) {
 			const plname = feature.place_name.split(',');
 			locHTML +=
 			  '<li data-long="' +
-			  feature.geometry.coordinates[0] +
+			  feature.geometry.coordinates[0] + 
 			  '" data-lat="' +
-			  feature.geometry.coordinates[1] +
+			  feature.geometry.coordinates[1] + 
 			  '">\x0a          <div class="name">' +
-			  plname[0].capitalize() +
+			  plname[0].capitalize() + 
 			  '</div>\x0a          <div>' +
-			  plname[1] +
+			  plname[1] + 
 			  '</div>\x0a        </li>';
 		  });
 		  _element.innerHTML = locHTML;
@@ -124,9 +124,10 @@ function locationsQuery(_place, _element) {
 }
 
 function selectLocation(_event) {
-  liCtrl = _event.target.closest('li');
+   const liCtrl = _event.target.closest('li');
+	 console.log(liCtrl);
   if (liCtrl !== null) {
-    allLi = liCtrl.parentElement.querySelectorAll('li');
+    const allLi = liCtrl.parentElement.querySelectorAll('li');
   for (const liNode of allLi) {
     liNode.classList.remove('selected');
   }
