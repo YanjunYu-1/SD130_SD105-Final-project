@@ -12,7 +12,7 @@ const processStyles = () => {
 const processScripts = () => {
   return src('src/scripts/**/*.js')
   .pipe(
-    gulpWebpack({ mode:'production', output:{filename:'bundle.js'}})
+    gulpWebpack({ mode:'production', output:{filename:'app.js'}})
   )
   .pipe(dest('dist/scripts'));
 };
