@@ -6,7 +6,7 @@ const processPage = () => {
 };
 
 const processStyles = () => {
-  return src('src/styles/*.css').pipe(dest('dist/styles'));
+  return src('src/styles/**/*.css').pipe(dest('dist/styles'));
 };
 
 const processScripts = () => {
@@ -25,4 +25,4 @@ const watchTask = () => {
 };
 
 exports.default = parallel(processPage,processStyles,processScripts);
-exports.watch = watchTask
+exports.watch = watchTask;
